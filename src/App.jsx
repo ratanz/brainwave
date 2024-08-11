@@ -9,6 +9,7 @@ import Roadmap from './components/Roadmap';
 import Footer from './components/Footer';
 
 
+
 const App = () => {
   return (
     <>
@@ -24,6 +25,7 @@ const App = () => {
       </div >
         <ButtonGradient />
     </>
+    
   )
 }
 
