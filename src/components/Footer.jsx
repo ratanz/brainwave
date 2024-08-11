@@ -14,8 +14,8 @@ const Footer = () => {
         </p>
         <ul className="flex gap-5 flex-wrap ">
             {socials.map((item) => (
-                <li key={item.id} className="flex items-center ">
-                    <a href={item.url}>
+                <li key={item.id} className="flex items-center justify-center w-10 h-10 bg-n-7 rounded-full transition-colors hover:bg-n-6 ">
+                    <a href={item.url} target="_blank" rel="noreferrer" className="">
                         <img src={item.iconUrl} width={20} height={20} alt={item.title} />
                     </a>
                 </li>
